@@ -1,0 +1,20 @@
+<div class="box"; style=" margin-left: 30%; margin-right: 30%; margin-top: 14%; border: 3px solid skyblue; border-radius: 5%; background-image: linear-gradient(blue,white);">
+<center>
+<h1 style="padding-top: 13%; font-size: 40px">WELCOME</h1>
+<input type="mailid"; placeholder="email id or phone number"><br>
+<input type="password"; placeholder="password"; style="margin: 2%;"><br>
+<button style=" background-color: skyblue; color: white; margin-top: 4px; font-size:100%; color: black; margin-bottom: 10%;" onclick="login()">login</button>
+</div>
+<style>
+    button:hover{
+        background-color: black;
+    }
+</style>
+<script>
+    var h1=document.getElementById("h1")
+    console.log(h1.textContent)
+
+    function login(){
+        h1.textContent="welcome to the web world"
+    }
+</script>
